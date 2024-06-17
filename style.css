@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 56px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#columnContainer {
+    display: flex;
+    height: 510px;
+}
+
+#buttonText1, #buttonText2 {
+    width: 25%;
+    height: 100px;
+    margin: 50px;
+}
+
+#buttonText1 {
+    margin-top: 180px;
+}
+
+#buttonText2 {
+    margin-top: 290px;
+    
+}
+#clearText, #customizeText {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    border-radius: 5%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+.buttons {
+    display: block;
+    width: 100vw;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: black 3px solid;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.square {
+width: 20px;
+height: 20px;
+box-sizing: border-box;
+}
+
+img{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
